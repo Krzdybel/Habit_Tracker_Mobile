@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/task_name"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:fontFamily="@font/bungee"
+        android:gravity="center"
+        android:text="Wypracuj codzienne nawyki"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/main1"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="8dp"
+        android:autoSizeTextType="uniform"
+        android:text="* Każdego ranka poświęć chwilę na zaplanowanie swojego dnia."
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/main2"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="8dp"
+        android:autoSizeTextType="uniform"
+        android:text="* Zdecyduj, co zrobić dziś a co przełożyć na jutro."
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/main3"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="8dp"
+        android:autoSizeTextType="uniform"
+        android:text="* Ustal priorytety i zacznij od najważniejszego zadania"
+        android:paddingBottom="5dp"/>
+</LinearLayout>

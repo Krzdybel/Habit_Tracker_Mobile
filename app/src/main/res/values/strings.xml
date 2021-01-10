@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PracaInzynierska</string>
+    <string name="desc">Text</string>
+    <string name="button">Button</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="habits">
+        <item>Oszczedzanie</item>
+        <item>Czwiczenia</item>
+        <item>Czytanie</item>
+    </string-array>
+</resources>
